@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import Checkout from './Checkout';
 import './App.css';
 
 class App extends Component {
@@ -19,6 +20,11 @@ class App extends Component {
           >
             Learn React
           </a>
+          <Checkout
+            name={'The Road to learn React'}
+            description={'Only the Book'}
+            amount={1}
+          />
         </header>
       </div>
     );
